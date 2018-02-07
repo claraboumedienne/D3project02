@@ -18,11 +18,25 @@ body, html { font-size: 80%; padding: 0; margin: 0;}
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 
+
+
+
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #fff;
-    background: #000;
+		color:#B7EDEA;
+    background: #3E4F4E;
+
+
 }
+
+
+
+#cbp-so-scroller h2{
+color: #fff;
+font-weight: bolder;
+font-size: 3em;
+}
+
 
 a {
 	color: #f0f0f0;
@@ -41,13 +55,18 @@ a:hover {
 }
 
 .container > header h1 {
-	font-family: 'Abril Fatface', cursive;
-	color: #BC0833;
-	font-size: 6em;
+	font-family: 'Lora', serif;
+	color: #B7EDEA;
+	font-size:9em;
 	line-height: 1.3;
-	margin: 0 0 0.6em 0;
+	margin: 0 0 0.0em 0;
 	float: left;
-	font-weight: 400;
+	font-weight: 200px;
+	background-color: #000;
+	background-size: 100px;
+	padding: 200px;
+	line-height: 70px;
+	margin-top: 0.5em;
 }
 
 .container > header > span {
@@ -124,7 +143,7 @@ a:hover {
 }
 
 .bp-icon:after {
-	font-family: 'bpicons';
+	font-family: 'Roboto Slab', serif;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
